@@ -17,6 +17,10 @@ const settingsNav = {
                 {action: 'IDK2', icon: 'fas fa-star', text: 'whatever', legend: 'I dont know'},
             ]
         },
+    ],
+    optionsbtn: [
+        { action: 'LIDK', icon: 'fas fa-star', legend: 'test 123' },
+        { action: 'LIDK2', icon: 'fas fa-star', legend: '' },
     ]
   };
 
