@@ -111,10 +111,10 @@ class AroundNav extends Component {
 
                         <div>
                             <button type="button" className="lksmt-content-nav-rightbtn" title={this.props.settings.optionsbtn[0].legend} onClick={e => this.props.routine(this.props.settings.optionsbtn[0].action)}>
-                                <i className="fas fa-star"></i>
+                                <i className={this.props.settings.optionsbtn[0].icon}></i>
                             </button>
-                            <button type="button" className="lksmt-content-nav-rightbtn" title={this.props.settings.optionsbtn[0].legend} onClick={e => this.props.routine(this.props.settings.optionsbtn[1].action)}>
-                                <i className="fas fa-star"></i>
+                            <button type="button" className="lksmt-content-nav-rightbtn" title={this.props.settings.optionsbtn[1].legend} onClick={e => this.props.routine(this.props.settings.optionsbtn[1].action)}>
+                                <i className={this.props.settings.optionsbtn[1].icon}></i>
                             </button>
                         </div>
                     </div>
